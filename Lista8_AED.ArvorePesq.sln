@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista8_AED.ArvorePesq", "Lista8_AED.ArvorePesq\Lista8_AED.ArvorePesq.csproj", "{74FD1C11-99E3-4DD5-B961-1F08B8C7888F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questão1(Verde)", "Questão1(Verde)\Questão1(Verde).csproj", "{68631FA1-35DA-4104-9615-959332819B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74FD1C11-99E3-4DD5-B961-1F08B8C7888F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FD1C11-99E3-4DD5-B961-1F08B8C7888F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FD1C11-99E3-4DD5-B961-1F08B8C7888F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68631FA1-35DA-4104-9615-959332819B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68631FA1-35DA-4104-9615-959332819B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68631FA1-35DA-4104-9615-959332819B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68631FA1-35DA-4104-9615-959332819B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
