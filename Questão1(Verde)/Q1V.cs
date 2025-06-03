@@ -20,14 +20,11 @@ namespace Lista8_AED.ArvorePesq
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Informe quantos alunos(N):");
             int n = int.Parse(Console.ReadLine());
             Aluno[] alunos = new Aluno[n];
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine($"Aluno {i}: ");
                 string csv = Console.ReadLine();
                 csv = csv.ToLower();
 
@@ -39,14 +36,15 @@ namespace Lista8_AED.ArvorePesq
                 alunos[i] = aluno;
             }
 
-            Console.WriteLine("Informe o nome a ser pesquisado: ");
-            string nome2 = Console.ReadLine();
-            nome2 = nome2.ToLower();
-            bool resp2 = false;
-            int dir = n - 1, esq = 0, meio;
             string op = "S";
             while (op != "N")
             {
+                string nome2 = Console.ReadLine();
+
+                nome2 = nome2.ToLower();
+                bool resp2 = false;
+                int dir = n - 1, esq = 0, meio;
+
                 while (esq <= dir)
                 {
                     meio = (esq + dir) / 2;
@@ -70,11 +68,6 @@ namespace Lista8_AED.ArvorePesq
                     Console.WriteLine("nao");
                 }
                 op = Console.ReadLine();
-
-                if (!resp2)
-                {
-                    Console.WriteLine("Não encontrado");
-                }
             }
         }
     }
